@@ -1,4 +1,23 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+    typescript:{
+        ignoreBuildErrors: true,
+    },
+    images:{
+        remotePatterns:[
+            {
+                protocol: 'https',
+                hostname:"flagcdn.com",
+
+            },
+            {
+                protocol: 'https',
+                hostname:"upload.wikimedia.org",
+
+            },
+           
+        ]
+    },
+};
 
 export default nextConfig;
