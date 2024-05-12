@@ -95,6 +95,8 @@ export default function Home() {
   return (
     <main className="min-h-screen px-6 md:px-[4rem] py-4 md:py-6 flex flex-col space-y-[3rem] bg-accent dark:bg-secondary">
       <div className="flex flex-col gap-10 md:flex-row md:items-center md:justify-between">
+        
+        {/* search bar */}
         <div
           className="flex items-center space-x-2 bg-white dark:bg-primary shadow-sm rounded-md w-full md:w-4/12 px-4 py-2
         "

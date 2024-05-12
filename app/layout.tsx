@@ -31,6 +31,8 @@ export default function RootLayout({
           <Navbar />
           {children}
         </Providers>
+        
+        {/* microsoft clairty integration to track user's activity */}
         <Metrics />
       </body>
     </html>

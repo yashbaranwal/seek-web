@@ -2,14 +2,6 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
 const baseQuery = fetchBaseQuery({
   baseUrl: "https://restcountries.com/v3.1/",
-  // prepareHeaders: (headers, { getState }) => {
-
-  //   // if (token) {
-  //   //   headers.set("authorization", `Bearer ${token}`);
-  //   // }
-
-  //   return headers;
-  // },
 });
 
 export const myApi = createApi({
